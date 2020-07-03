@@ -1,14 +1,14 @@
-# lazy-get
+# atmemo
 
 decorator for getter lazy evaluation
 
 ## Example
 
 ```typescript
-import lazy from 'lazy-get'
+import memo from 'atmemo'
 
 class MyModule {
-  @lazy get field() {
+  @memo get field() {
     return {}
   }
 }
